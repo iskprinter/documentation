@@ -10,3 +10,9 @@ IskPrinter.com is intended to help players of the Eve Online MMO to make money (
 The architecture is divided into two parts: infrastructure and application. Some infrastructure components are deployed only in the cloud, while others are deployed both in the cloud and in the local cluster during development.
 
 ![architecture](./architecture.svg)
+
+## Deployment Process
+
+1. Deploy the [infrastructure](https://github.com/iskprinter/infrastructure) (namely, a Kubernetes cluster).
+1. Deploy the [cluster-infra](https://github.com/iskprinter/cluster-infra).
+1.  Deploy the iskprinter [application](https://github.com/iskprinter/application).
