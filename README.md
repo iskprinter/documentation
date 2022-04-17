@@ -13,6 +13,5 @@ The architecture is divided into two parts: infrastructure and application. Some
 
 ## Deployment Process
 
-1. Deploy the [infrastructure](https://github.com/iskprinter/infrastructure) (namely, a Kubernetes cluster).
-1. Deploy the [cluster-infra](https://github.com/iskprinter/cluster-infra).
+1. Deploy the [infrastructure](https://github.com/iskprinter/infrastructure).
 1.  Deploy the iskprinter [application](https://github.com/iskprinter/application).
